@@ -13,7 +13,17 @@
                 justify-content: center;
             }
             .item {
-                font-family: Hack; font-size: 2em;
+                font-family: Hack;
+                font-size: 2em;
+            }
+            .green {
+                color: #8ade31;
+            }
+            .blue {
+                color: #729fcf;
+            }
+            .white {
+                color: #ffffff;
             }
         </style>
     </defs>
@@ -22,9 +32,9 @@
             <switch>
                 <foreignObject style="overflow:visible;" pointer-events="all" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
                     <div xmlns="http://www.w3.org/1999/xhtml" class="container">                        
-                            <font class="item">
-                                <font color="#00ff00">assister</font><font color="#ffffff">:</font><font color="#729fcf">~</font><font color="#ffffff">$ _</font>
-                            </font>
+                            <div class="item">
+                                <span class="green">assister</span><span class="white">:</span><span class="blue">~</span><span class="white">$ _</span>
+                            </div>
                     </div>
                 </foreignObject>
                 <text x="120" y="40" fill="#ffffff" text-anchor="middle" font-size="2em" font-family="Hack">

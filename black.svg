@@ -13,7 +13,8 @@
                 justify-content: center;
             }
             .item {
-                font-family: Hack; font-size: 2em;
+                font-family: Hack;
+                font-size: 2em;
             }
         </style>
     </defs>
@@ -22,12 +23,12 @@
             <switch>
                 <foreignObject style="overflow:visible;" pointer-events="all" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
                     <div xmlns="http://www.w3.org/1999/xhtml" class="container">                        
-                            <font class="item">
-                                <font color="#000000">assister:~$ _</font>
-                            </font>
+                            <div class="item">
+                                <span>assister:~$ _</span>
+                            </div>
                     </div>
                 </foreignObject>
-                <text x="120" y="40" fill="#ffffff" text-anchor="middle" font-size="2em" font-family="Hack">
+                <text x="120" y="40" fill="#000000" text-anchor="middle" font-size="2em" font-family="Hack">
                     assister:~$ _
                 </text>
             </switch>
