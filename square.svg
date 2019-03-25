@@ -33,7 +33,7 @@
                             </div>
                     </div>
                 </foreignObject>
-                <text x="120" y="40" fill="#ffffff" text-anchor="middle" font-size="2em" font-family="Hack">
+                <text x="120" y="40" fill="#000000" text-anchor="middle" font-size="2em" font-family="monospace">
                     assister:~$ _
                 </text>
             </switch>
