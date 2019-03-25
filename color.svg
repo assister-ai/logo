@@ -2,10 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="14em" height="4em">
     <defs>
         <style type="text/css">
-            @font-face {
-                font-family: Hack, monospace;
-                src: url('//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css');
-            }
             .container {
                 height: 100%;
                 display: flex;
@@ -13,14 +9,14 @@
                 justify-content: center;
             }
             .item {
-                font-family: Hack;
-                font-size: 2em;
+                font-family: Ubuntu Mono, Noto Mono, Courier New, monospace;
+                font-size: 1.7em;$
             }
             .green {
-                color: #8ade31;
+                color: #21dc78;
             }
             .blue {
-                color: #729fcf;
+                color: #3a8eff;
             }
             .white {
                 color: #ffffff;
