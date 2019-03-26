@@ -1,32 +1,19 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="14em" height="14em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="10em" height="10em">
     <defs>
         <style type="text/css">
             .container {
-                background-color: #1e1e1e;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .circle {
-                width: 10em;
-                height: 10em;
                 background: #2e2e2e;
                 border-radius: 50%;
+                height: 100%;
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                font-weight: bold;
-            }
-            .agent {
-                font-family: Ubuntu Mono, Noto Mono, Courier New, monospace;
-                font-size: 3.5em;$
+                justify-content: center;
             }
             .item {
                 font-family: Ubuntu Mono, Noto Mono, Courier New, monospace;
-                font-size: 1.7em;$
+                font-size: 3.5em;
+                font-weight: bold;
             }
             .green {
                 color: #21dc78;
@@ -34,28 +21,20 @@
             .blue {
                 color: #3a8eff;
             }
-            .white {
-                color: #ffffff;
-            }
         </style>
     </defs>
     <g>
         <g>
             <switch>
                 <foreignObject style="overflow:visible;" pointer-events="all" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" class="container">
-                        <div class="circle">                                                
-                            <div class="agent">
+                    <div xmlns="http://www.w3.org/1999/xhtml" class="container">                        
+                            <div class="item">
                                 <span class="green">&#x007b;</span><span class="blue">&#x25cf;</span><span class="blue">&#x25cf;</span><span class="blue">&#x25cf;</span><span class="green">&#x007d;</span>
                             </div>
-                        </div>
-                        <div class="item">
-                            <span class="green">assister</span><span class="white">:</span><span class="blue">~</span><span class="white">$ _</span>
-                        </div>
                     </div>
                 </foreignObject>
                 <text x="120" y="40" fill="#000000" text-anchor="middle" font-size="2em" font-family="monospace">
-                    assister:~$ _
+                    &#x007b;&#x2022;&#x2022;&#x2022;&#x007d;
                 </text>
             </switch>
         </g>
